@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Как я провёл лето</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero text-center text-white">
+        <div class="container">
+            <h1 class="display-4 fw-bold mt-3 hero-title">📞 Контакты</h1>
+            <p class="lead hero-subtitle">Как со мной связаться - просто и без лишних формальностей</p>
+        </div>
+    </header>
+
+    <main class="container my-5 main-bg">
+        <h2 class="text-center mb-3 section-title">🌻 Связаться со мной 🌻</h2>
+
+        <div class="text-center mb-5">
+            <img src="mee.jpg" alt="Моё фото" class="hero-photo shadow">
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item" data-bs-toggle="modal" data-bs-target="#contact1">
+                <div class="timeline-dot">📧</div>
+                <div class="timeline-content">
+                    <h5>Email</h5>
+                    <p>Пиши, если что-то важное или просто поболтать.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-bs-toggle="modal" data-bs-target="#contact2">
+                <div class="timeline-dot">📱</div>
+                <div class="timeline-content">
+                    <h5>Телефон</h5>
+                    <p>Звонки, сообщения, telegram - всё сюда.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-bs-toggle="modal" data-bs-target="#contact3">
+                <div class="timeline-dot">💬</div>
+                <div class="timeline-content">
+                    <h5>Соцсети</h5>
+                    <p>Найди меня там, где удобно.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-bs-toggle="modal" data-bs-target="#contact4">
+                <div class="timeline-dot">📍</div>
+                <div class="timeline-content">
+                    <h5>Где я живу</h5>
+                    <p>Город, общежитие, аудитория - где меня искать.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="index.html" class="btn btn-warning fw-bold">← Назад на главную</a>
+        </div>
+    </main>
+
+    <div class="modal fade" id="contact1" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">📧 Email</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Мой основной адрес: <strong>talko@example.com</strong></p>
+                    <p>Отвечаю обычно в течение дня. Если срочно - лучше позвони.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="contact2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">📱 Телефон</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Телефон: <strong>+375 (29) 123-45-67</strong></p>
+                    <p>Telegram: <strong>@talko</strong></p>
+                    <p>WhatsApp - тоже есть, но лучше писать в Telegram.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="contact3" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">💬 Соцсети</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Instagram: <strong>@talko</strong></p>
+                    <p>VK: <strong>vk.com/talko</strong></p>
+                    <p>GitHub: <strong>github.com/talko</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="contact4" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">📍 Где я живу</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Город: <strong>Минск</strong></p>
+                    <p>Общежитие: <strong>№3, комната 214</strong></p>
+                    <p>Учусь: <strong>АупПРБ, 7 семестр, УИР</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-3">
+        <p class="mb-0">2026 Как я провёла лето!!! 🌞</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
